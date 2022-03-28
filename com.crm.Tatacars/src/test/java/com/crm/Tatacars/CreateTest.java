@@ -7,6 +7,7 @@ public class CreateTest {
 	public void create()
 	{
 		System.out.println("Hello");
+		System.out.println("jash");
 	}
 
 }
