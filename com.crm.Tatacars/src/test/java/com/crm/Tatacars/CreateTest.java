@@ -8,6 +8,7 @@ public class CreateTest {
 	{
 		System.out.println("Hello");
 		System.out.println("jash");
+		System.out.println();
 	}
 
 }
