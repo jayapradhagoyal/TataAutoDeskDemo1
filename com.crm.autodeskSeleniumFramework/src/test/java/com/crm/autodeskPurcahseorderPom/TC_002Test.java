@@ -24,7 +24,7 @@ import com.vtiger.puchaseorderespository.LoginPage;
 import com.vtiger.puchaseorderespository.VendorInformationPage;
 import com.vtiger.puchaseorderespository.VendorsPage;
 
-public class TC_002 {
+public class TC_002Test{
 	public static void main(String[] args) throws Throwable {
 		// creating the objects for generic Utility classes
 		ExcelUtility eu=new ExcelUtility();
@@ -51,7 +51,7 @@ public class TC_002 {
 	{
 		System.out.println("login page is not dispalyed :FAIl");
 	}
-
+     System.out.println();
 	LoginPage loginpage = new LoginPage(driver);
 	loginpage.login(username, password);
 	
