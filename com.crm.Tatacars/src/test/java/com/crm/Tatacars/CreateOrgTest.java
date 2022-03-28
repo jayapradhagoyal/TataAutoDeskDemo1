@@ -1,0 +1,12 @@
+package com.crm.Tatacars;
+
+import org.testng.annotations.Test;
+
+public class CreateOrgTest {
+	@Test
+	public void createOrganization()
+	{
+		System.out.println("organization created");
+	}
+
+}
