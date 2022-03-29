@@ -1,8 +1,11 @@
 package practice1;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-public class CreateOrganization {
+import com.crm.autodeskgenericutility.BaseClass;
+
+public class CreateOrganization extends BaseClass {
 	@Test(groups="smokeTest")
 	public void createOrg()
 	{

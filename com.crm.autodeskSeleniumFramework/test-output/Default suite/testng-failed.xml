@@ -3,19 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.autodesk.TestNG.CreatingContractWithindustryTest">
+      <class name="practice.ReportSampleTest">
         <methods>
           <include name="bm"/>
           <include name="beforeClass"/>
+          <include name="createOrg"/>
           <include name="as"/>
           <include name="ac"/>
           <include name="at"/>
           <include name="beforesuite"/>
           <include name="am"/>
+          <include name="createProduct"/>
           <include name="beforeTest"/>
-          <include name="createWithindustry"/>
         </methods>
-      </class> <!-- com.crm.autodesk.TestNG.CreatingContractWithindustryTest -->
+      </class> <!-- practice.ReportSampleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
